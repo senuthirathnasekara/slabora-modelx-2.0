@@ -1,0 +1,37 @@
+✔ metric equation agrees with three independently computed 35-digit Decimal examples (1.09863ms)
+✔ negative evaporation clamps to zero; invalid inputs do not coerce to zero (0.230146ms)
+✔ 0.5 and 1.0 evaporation boundaries are conservative (0.446531ms)
+✔ rain screens require strict probability and exactly zero accumulation for green (0.15995ms)
+✔ concrete and wind scenarios are evaluated as all six combinations (1.090598ms)
+✔ measured concrete produces two wind scenarios and remains user supplied (0.264407ms)
+✔ scenario warning crossing prevents green even when baseline case is low (1.254404ms)
+✔ window checks later hours, not only the start hour (0.31992ms)
+✔ rain and probability at end timestamp belong to the preceding hour (0.252599ms)
+✔ rain at the start timestamp describes a period outside the candidate (0.313451ms)
+✔ gust maximum is aligned from the next timestamp, including last exposure hour (1.037699ms)
+✔ null critical temp yields Cannot assess (0.307973ms)
+✔ null critical humidity yields Cannot assess (0.166781ms)
+✔ null critical wind yields Cannot assess (0.137897ms)
+✔ null critical gust yields Cannot assess (0.116455ms)
+✔ null critical prob yields Cannot assess (0.100772ms)
+✔ null critical rain yields Cannot assess (0.136194ms)
+✔ incomplete review periods fail closed (0.113621ms)
+✔ stale and impossible future retrieval times fail closed (0.41905ms)
+✔ freshness boundary remains valid at exactly 3 hours (0.122284ms)
+✔ Sri Lanka timezone preserves UTC half-hour offset across local midnight (13.484682ms)
+✔ workday end includes complete exposure period, not late starts (3.28273ms)
+✔ status ranking is lower, review, elevated, unavailable (2.326654ms)
+✔ API adapter validates units, equal arrays, timezone and hourly alignment (1.580063ms)
+✔ API nulls are retained as missing rather than coerced (0.109845ms)
+✔ settings reject inverted rain screens and incomplete/invalid workdays (0.201763ms)
+✔ pilot locations are bounded and malformed coordinate types rejected (0.139279ms)
+✔ sample data are explicitly tagged and runtime dated (0.228053ms)
+✔ CSV export records provenance, assumptions, time offset and quoted values (1.823488ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 121.668673

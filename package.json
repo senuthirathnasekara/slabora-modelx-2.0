@@ -1,0 +1,12 @@
+{
+  "name": "slabora",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scenario-aware concrete pour-window planning prototype",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.js && node --check dist/core.js && node --check dist/weather.js",
+    "serve": "python3 -m http.server 3000 --directory dist"
+  }
+}
