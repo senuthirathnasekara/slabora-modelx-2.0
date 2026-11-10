@@ -1,0 +1,4 @@
+
+> slabora@1.0.0 check
+> node --check dist/app.js && node --check dist/core.js && node --check dist/weather.js
+

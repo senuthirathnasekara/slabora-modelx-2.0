@@ -1,0 +1,19 @@
+{
+  "evaluation": "Frozen forecast replay at recorded retrieval time; not a live recommendation",
+  "retrieved_at_utc": "2026-11-10T16:42:12.010393+00:00",
+  "http_status": 200,
+  "provider_rows": 96,
+  "valid_future_hourly_bins": 48,
+  "candidates": 20,
+  "states": {
+    "amber": 4,
+    "red": 16
+  },
+  "top_candidate": {
+    "start_utc": "2026-11-11T00:30:00.000Z",
+    "status": "amber",
+    "max_evaporation_kg_m2_h": 0.6611836029817317,
+    "max_hourly_rain_probability_percent": 6,
+    "rain_mm": 0
+  }
+}
